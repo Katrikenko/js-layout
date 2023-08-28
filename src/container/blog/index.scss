@@ -1,0 +1,51 @@
+@use "../../style/layout.scss" as layout;
+
+
+
+.post__list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.tabs {
+	display: flex;
+	gap: 4px;
+	justify-content: space-around;
+	font-size: 16px;
+
+	&__button--1 {
+		border-bottom: 2px solid #e6e6e6;
+		width: 170px;
+
+	}
+
+	&__button--2 {
+		border-bottom: 2px solid #121212;
+		width: 170px;
+
+	}
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	&__img {
+		justify-content: center;
+		border-radius: 8px;
+	}
+
+	&__description {
+		font-size: 12px;
+	}
+
+	&__button {
+		padding: 12px;
+		font-size: 12px;
+		border-radius: 8px;
+		background-color: #F46F17;
+		color: #fff;
+	}
+}
